@@ -15,11 +15,11 @@
 
 ## [AARRR](https://github.com/DominKim/Growth_Hacking/tree/main/02.AARRR)
 
-Acquisition : 어떻게 우리 서비스를 접하고 있는가
-Activation : 사용자가 처음 서비스를 이용할 때 긍정적인 경험을 제공하는가
-Retention : 이후의 서비스 재사용률은 어떻게 되는가
-Referral : 사용자가 자발적 바이럴, 공유를 일으키고 있는가
-Revenue : 최종 목적(매출)으로 연결되고 있는가
+- Acquisition : 어떻게 우리 서비스를 접하고 있는가
+- Activation : 사용자가 처음 서비스를 이용할 때 긍정적인 경험을 제공하는가
+- Retention : 이후의 서비스 재사용률은 어떻게 되는가
+- Referral : 사용자가 자발적 바이럴, 공유를 일으키고 있는가
+- Revenue : 최종 목적(매출)으로 연결되고 있는가
 
 
 ## 데이터 다루기
