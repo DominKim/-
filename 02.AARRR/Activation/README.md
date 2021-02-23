@@ -37,12 +37,6 @@
 
 - Funnel 개선하기
   - 개인화
-    - 머신러닝 활용, Rule Base Recommendation(도메인 지식을 활용)
+    - 머신러닝 활용, Rule Base Recommendation
   - UI /UX
-    - 전 / 후 효과에 대한 정확한 측정과 검증 과정이 필요함
   - 적절한 개입
-    - 이메일, 푸시 등을 이용한 Use Flow 개입
-    - 보수적으로 사용
-
-- 다양한 서비스와 툴 사용ㅌ#
-- 다양한 서비스와 툴 사용법#
