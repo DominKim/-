@@ -1,54 +1,48 @@
-# Growth_Hacking
+## Activation
 
-- 데이터에서부터 찾아 낸 여러 인사이트를 바탕으로 제품 / 서비스를 지속적으로 개선해 나가는 것
+- Activation : Acquisition을 통해 데려온 사용자가, 우리 서비스의 핵심 가치를 경험했는가?
 
-## 그로스 해킹
-- Cross-functional한 직군의 멤버들이 모여서
-- 핵심지표를 중심으로
-- 실험을 통해 배움을 얻고, 이를 빠르게 반복하면서
-- 제품 / 서비스를 성장시키는 것
+  - Activation 단계의 핵심은, Funnel에 대한 분석
+    - 사용자들이 경험하는 단계를 도식화
+    - 각 단계의 전환율을 측정 / 분석
 
-## 키워드
-- 지표, 분석 환경, 프로세스, 문화
+- Funnel 분석의 고려 요소
+  - 핵심가치를 경험하는 시점과 그곳으로 연결되는 Stage를 잘 정의했는가?
+  - 각 Stage 별 전환율을 어떤 기준으로 측정하는가?
+    - 기준을 명확히 해야 한다.
+  - Cohort를 쪼개서 보고 있는가?
+    - 이벤트를 기준으로 쪼갠다.
 
-## PMF : Product-Market Fit
-- 실험을 하기 전에 확인해야 하는 문제
-- 우리가 만든 제품이나 서비스가, 실험을 할만한 가치가 있는가?
+- Funnel 분석의 가치
+  - 각 Stage 별 conversion을 확인할 수 있다.
+  - Conversion에 영향을 주는 선행짚ㅛ를 발견할 수 있다.
+    - Cohort A는 stage1 -> stage2로 넘어오는 conversion이 35%인데
+    - Cohort B는 stage1 -> stage2로 넘어오는 conversion이 왜 20% 밖에 안되지?
+  - Cohort 별 분석 예시
+    - Signup cohort에 따라 다른가?
 
-- Product-Market Fit 적합한 지표
-  1) Retention : 서비스에 처음 접속한 사람이 그 이후 서비스에 떨어져 나갔는지? 계속 사용하는지?
-  2) Conversion : 각 단계별로 핵심 가치로 얼마나 잘 넘어오는지?
-  3) NPS(Net Prmoter Score) : 우리 서비스를 주변에 얼마나 추천하고 싶은지?(0 ~ 10점 척도)
-    - detractors(0 ~ 6), passives(7 ~ 8), promoters(9 ~ 10)
-    - promters - detactors
+- 이탈의 원인 밝히기
+  - 데이터분석과 인터뷰
+    - 정량적, 정성적 분석
+  - 일반적으로는 cohort에 따른 conversion rate를 비교하게 되지만
+    - Tutorial을 완료한 사용자와, 그렇지 않은 사용자의 Conversion이 다른가?
+  - Raw data를 깊이 있게 확인할 수 있다면,이걸 역순으로 할 수 있음
 
-- 부적합한 지표
-  1) Install, Sign-up, Active user
+- Funnel 분석 정리
+  - Conversion이 중요하다 -> Global optimization
+    - 개별 funnel의 최적화는 전체 최적화로 이어지지 않는 경우가 있음
+    - Conversion rate를 높이는 것보다, Stage를 줄이는 게 효과적인 경우가 있음
+  - Home Try On : 깔대기 뒤집어보기(ex) 결제 -> 배송, 배송 -> 결제 or 환불)
+  - Cohort에 따른 차이와 그 원인을 파악하는게 핵심
 
-- PMF 개선하는 방법?
-- 해서는 안되는 것
-  1) 브레인스토밍 : 사용자 입장에서 넘겨짚거나 가정하고 새로운 기능을 추가 하는 것
-  2) 새로운 기능을 추가하는 것 :
-  3) Retention, Conversion을 개선하기 위한 실험 : 결과 지표이기 때문
+- Funnel 개선하기
+  - 개인화
+    - 머신러닝 활용, Rule Base Recommendation(도메인 지식을 활용)
+  - UI /UX
+    - 전 / 후 효과에 대한 정확한 측정과 검증 과정이 필요함
+  - 적절한 개입
+    - 이메일, 푸시 등을 이용한 Use Flow 개입
+    - 보수적으로 사용
 
-- 해야하는 것
- 1) 사용자를 직접 만나서 이야기를 드기
- 2) 사용자 데이터 분석
-
-
-
-
-## 데이터 다루기
-- Raw 데이터를 다루는데 익숙해져야 함
-  - SQL : DB에서 원하는 데이터를 추출할 때 사용
-  - Python, R : 추출한 데이터를 원하는 형태로 가공할 때 사용
-
-- 통계 & 실험방법론
-
-- 다양한 서비스와 툴 사용법
-  - GA, Firebase, Tableau
-  - 구글 애널리틱스 아카데미 : https://analytics.google.com/analytics/academy
-
-- 도메인 지식 / 업무 지식
-
-- 그로스는 팀 스포츠
+- 다양한 서비스와 툴 사용ㅌ#
+- 다양한 서비스와 툴 사용법#
