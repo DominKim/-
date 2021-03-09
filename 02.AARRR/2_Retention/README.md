@@ -24,7 +24,8 @@
 
 
 * Range Retention
-  - 특정 __기간__에 come back한 유저의 비율
+  - 특정 __기간__에 
+  - come back한 유저의 비율
   - 
 
 
