@@ -1,42 +1,34 @@
-## Activation
+AARRR
+=============
 
-- Activation : Acquisition을 통해 데려온 사용자가, 우리 서비스의 핵심 가치를 경험했는가?
+## Revenue
 
-  - Activation 단계의 핵심은, Funnel에 대한 분석
-    - 사용자들이 경험하는 단계를 도식화
-    - 각 단계의 전환율을 측정 / 분석
+* Revenue
+  - 사업의 성패를 가른건 BM(Business Model)을 가지고 있으며, 그게 working 하는가? 임
+  - 분석가에게도 매출은 책임이 있음
 
-- Funnel 분석의 고려 요소
-  - 핵심가치를 경험하는 시점과 그곳으로 연결되는 Stage를 잘 정의했는가?
-  - 각 Stage 별 전환율을 어떤 기준으로 측정하는가?
-    - 기준을 명확히 해야 한다.
-  - Cohort를 쪼개서 보고 있는가?
-    - 이벤트를 기준으로 쪼갠다.
+* Revenue 관련 지표
+  - ARPU(Average Revenue Per User)
+    + 계산 : 인당 평균 결제액 = Revenue / User
+    + 전반적인 Monetization 상황을 보는데 유용함
+    + 문제는 User와 Revenue가 굉장히 모호하다는 것
+    + 따로 정의되지 않았다면 Montly로 구분해서 보는게 일반적
+    + ARPDAU처럼 애초에 명시적으로 기간을 정의하기도 한다.
+    
+  - ARPPU(Average Revenue Per Paying User)
+    + 계산 : 결제자 인당 평균 결제액 = Revenue / Paying user
 
-- Funnel 분석의 가치
-  - 각 Stage 별 conversion을 확인할 수 있다.
-  - Conversion에 영향을 주는 선행짚ㅛ를 발견할 수 있다.
-    - Cohort A는 stage1 -> stage2로 넘어오는 conversion이 35%인데
-    - Cohort B는 stage1 -> stage2로 넘어오는 conversion이 왜 20% 밖에 안되지?
-  - Cohort 별 분석 예시
-    - Signup cohort에 따라 다른가?
+  - ASP(Average Selling Price)
+    + 계산 : Revenue / # of units sold
+    + 마찬가지로 **기간**에 대한 정의 필요함
 
-- 이탈의 원인 밝히기
-  - 데이터분석과 인터뷰
-    - 정량적, 정성적 분석
-  - 일반적으로는 cohort에 따른 conversion rate를 비교하게 되지만
-    - Tutorial을 완료한 사용자와, 그렇지 않은 사용자의 Conversion이 다른가?
-  - Raw data를 깊이 있게 확인할 수 있다면,이걸 역순으로 할 수 있음
+* Lifetime Value
+  - 유저 생애 가치
+  - 한명의 고객이 진입부터 이탈까지의 전체 활동기간 동안 누적해서 발생시키는 기대수익
+  - Lifetime Value = ARPU X 1/Churn (Churn : 고객 이탈 비율)
+  - 현실에서 이런 식의 계산은 거의 쓸 수 없음
 
-- Funnel 분석 정리
-  - Conversion이 중요하다 -> Global optimization
-    - 개별 funnel의 최적화는 전체 최적화로 이어지지 않는 경우가 있음
-    - Conversion rate를 높이는 것보다, Stage를 줄이는 게 효과적인 경우가 있음
-  - Home Try On : 깔대기 뒤집어보기(ex) 결제 -> 배송, 배송 -> 결제 or 환불)
-  - Cohort에 따른 차이와 그 원인을 파악하는게 핵심
+  - LTV대신 **LTR(Liftime Revenue)**을 활용
+  - 
 
-- Funnel 개선하기
-  - 개인화
-    - 머신러닝 활용, Rule Base Recommendation
-  - UI /UX
-  - 적절한 개입
+##
