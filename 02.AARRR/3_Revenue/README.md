@@ -28,7 +28,13 @@ AARRR
   - Lifetime Value = ARPU X 1/Churn (Churn : 고객 이탈 비율)
   - 현실에서 이런 식의 계산은 거의 쓸 수 없음
 
-  - LTV대신 **LTR(Liftime Revenue)**을 활용
-  - 
+  - LTV대신 __LTR(Liftime Revenue)__ 을 활용
+    + 계산이 어려운 COst는 일단 생각하지 말고
+    + 고객이 lifetime으로 결제한 매출의 평균 합계액만 계산
+  - Liftetime Value
+    + 한명의 고객이 진입부터 이탈까지의 전체 활동기간 동안 누적해서 발생시키는 매출
+
+* Revenue의 구성
+  - Revenue = 결제자수 * ARPPU 
 
 ##
